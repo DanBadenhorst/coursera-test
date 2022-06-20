@@ -1,0 +1,167 @@
+/********** Base styles **********/
+
+* 
+{
+	font-size: 80%;
+}
+
+
+
+/********** Navbar **********/
+
+.container
+{
+    margin-left: 0px;
+}
+
+#header-nav
+{
+	background-color: darkgrey;
+	border-radius: 0;
+	border: 0;
+	border-color: black;
+	border: 2px solid black;
+}
+
+.navbar-brand 
+{
+	padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+.navbar-brand h1 
+{
+	color: black;
+	font-weight:  bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.6em;
+	/*line-height: 1;*/
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+	text-decoration: none;
+} 
+
+
+
+
+/********button styling*****************/
+
+.navbar-header button.navbar-toggle[aria-expanded="false"]
+{
+	border: 2px solid black;
+	background-color: darkgray;
+}
+
+.navbar-header button.navbar-toggle[aria-expanded="false"] .icon-bar
+{
+	border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle[aria-expanded="true"]
+{
+	border: 2px solid lightgray;
+	background-color: darkgray;
+}
+
+.navbar-header button.navbar-toggle[aria-expanded="true"] .icon-bar
+{
+	border: 2px solid lightgray;
+}
+
+
+
+#collapsable-nav li 
+{
+  border-top: 2px solid black;
+}
+
+
+
+/*Nav List*/
+
+
+#nav-list
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#nav-list a
+{
+	color: black;
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+#nav-list a:hover
+{
+	background: lightgray;
+}
+
+#nav-list a span
+{
+	font-size: 5.5em;
+	font-weight: bold;
+}
+
+
+/*********Page styling after Navbar**********/
+
+
+#page-heading
+{
+	margin-bottom: 40px;
+}
+
+#page-heading h1
+{
+	color: black;
+	font-weight:  bold;
+	font-size: 2.1em;
+}
+
+
+#ChickenContainer
+{
+	background: darkgrey;
+	color: black;
+	font-weight:  bold;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-top: 3px;
+	padding-bottom: 15px;
+
+}
+
+
+.ChickenContainerHead
+{
+	font-size: 1.9em;	
+}
+
+.ChickenContainerDetail
+{
+	font-size: 1.5em;
+}
+
+
+.footer-spacing
+{
+	margin-top: 30px;
+}
+
+
+/********** Exerything within XS range so we can set margins that are different for mobile **********/
+@media (max-width: 767px) {
+
+  #ChickenContainer
+  {
+	margin-right: 60px;
+	margin-left: 60px;
+  }
+}
